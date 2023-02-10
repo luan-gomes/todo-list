@@ -1,0 +1,29 @@
+.createTask {
+  margin-top: calc(0px - 1.6875rem);
+}
+
+.addTaskForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.addTaskForm input {
+  background-color: var(--grey-500);
+  border-radius: 8px;
+  padding: 1rem;
+  width: 37.875rem;
+  box-sizing: initial;
+  color: var(--grey-100);
+}
+
+.addTaskForm button[type=submit] {
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: var(--blue-dark);
+  color: var(--grey-100);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
