@@ -1,0 +1,36 @@
+.taskList {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.tasksCount {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.tasksInfo {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.created {
+  color: var(--blue);
+}
+
+.done {
+  color: var(--purple);
+}
+
+.counter {
+  background-color: var(--grey-400);
+  color: var(--grey-200);
+  padding: 0.125rem 0.5rem;
+  border-radius: 8px;
+}
